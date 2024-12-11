@@ -1,0 +1,16 @@
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1em;
+    color: #34495e;
+}

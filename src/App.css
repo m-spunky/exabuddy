@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 20vw; /* Reduced width */
+    background-color: #3A2F59;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px; /* Increased padding */
+  }
+
+  .sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 48px; /* Increased spacing below header */
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* 1.5x spacing between sidebar items */
+  }
+
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .sidebar ul li a:hover {
+    color: #ccc;
+  }
+
+  .sidebar .settings {
+    margin-top: 48px; /* Increased spacing above settings */
+  }
+
+  .sidebar a:last-child {
+    margin-top: auto;
+  }
+
+  /* Main content */
+  .main {
+    flex: 1;
+    background-color: #6a4cb5;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding: 32px; /* Increased padding */
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px; /* Increased spacing below header */
+  }
+
+  .main-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .header-buttons {
+    display: flex;
+    gap: 18px; /* 1.5x spacing between header buttons */
+  }
+
+  .header-buttons button {
+    width: 40px;
+    height: 40px;
+    background-color: #5a4295;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .header-buttons button:hover {
+    background-color: #49357b;
+  }
+
+  /* Content area */
+  .content-area {
+    flex: 1;
+    background-color: #BAB6EE;
+    border-radius: 12px;
+    padding: 32px; /* Increased padding */
+    margin-bottom: 24px; /* Increased spacing */
+  }
+
+  /* Chat input */
+  .chat-input {
+    display: flex;
+    align-items: center;
+    background-color: #4a3c83;
+    border-radius: 50px;
+    padding: 16px 24px; /* Increased padding */
+    gap: 12px; /* Added gap between elements */
+  }
+
+  .chat-input input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding-left: 8px;
+  }
+
+  .chat-input button {
+    background: none;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .chat-input button:hover {
+    color: #fff;
+  }
